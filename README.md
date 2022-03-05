@@ -6,13 +6,13 @@ In this report I will explain in detail how that came into fruition between the 
 
 
 There are 3 main components to this project:
->> 2 ultrasonic sensors (),
->> Arduino Uno (Arduino UNO R3 ATmega328P)
->> a computer 
+2 ultrasonic sensors (HC-SR04),
+Arduino Uno (Arduino UNO R3 ATmega328P),
+A computer 
 
 The programs that were used are:
->> Arduino IDE
->> Python 
+ Arduino IDE,
+ PyCharm 
 
 The sensors were connected to the Arduino (The pin configuration is shown in Fig.4). The Arduino is connected to the computer which provides power to the module and also establishes communication through a serial port (USB). 
 The sensors measure the distance by emitting ultrasonic waves and receiving the reflected wave back from the target (in our case the target is the hand), then measure the time between the emission and reception. 
